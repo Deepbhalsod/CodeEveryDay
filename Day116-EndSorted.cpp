@@ -20,11 +20,11 @@ class Solution
             if(a[i]==size) 
                 e = i;
         }
-	    if(e<s)
-	        return ((s-0)+(size-1-e))-1;
-	    else
-	        return ((s-0)+(size-1-e));       
-    
+        if(e<s)
+            return ((s-0)+(size-1-e))-1;
+        else
+            return ((s-0)+(size-1-e));       
+
     }
 };
 

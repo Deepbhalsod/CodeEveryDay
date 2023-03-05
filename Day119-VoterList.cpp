@@ -16,15 +16,14 @@ class Solution
         for(int j=0; j<1000000; j++)
         {
             if(arr[j] > 1)
-               count++;
+                count++;
         }
         cout << count << endl;
         for(int j=0; j<1000000; j++)
         {
             if(arr[j] > 1)
-               cout<< j << endl;
-        } 
-             
+                cout<< j << endl;
+        }    
     }
 };
 
