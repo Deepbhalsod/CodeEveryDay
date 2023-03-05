@@ -51,10 +51,7 @@ public:
         }
 
         return temp->next;
-
-
-
-
+    
         // if(list1 == NULL)
         //     return list2;
 

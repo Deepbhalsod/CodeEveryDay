@@ -1,4 +1,3 @@
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -16,7 +15,7 @@ int badElement(int arr[], int n)
             else
                 break;
         }
-        if(count>max)
+        if(count>max) 
             max=count;
         i++;
     }

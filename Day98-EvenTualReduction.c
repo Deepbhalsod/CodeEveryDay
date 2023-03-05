@@ -21,14 +21,10 @@ int main()
     	                temp++;
     	        }
     	        if(temp%2==0)
-    	        {
     	            flag=1;
-    	        }
     	        else
-    	        {
     	            flag=0; 
     	            break;
-    	        }
     	    }
     	    if(flag==1)
     	        printf("YES\n");
